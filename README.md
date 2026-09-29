@@ -4,6 +4,8 @@ A plain page with `instantsearch.js` 4.118.1 from jsDelivr, `routing: true`, and
 
 Live: https://franknoel.github.io/instantsearch-popstate-repro/
 
+Reported in https://github.com/algolia/instantsearch/issues/7260.
+
 1. Click "Go to #details". The URL ends in `#details`.
 2. Press Back. The URL has no query string.
 3. Click page 2. The hits are page 2, and the URL still has no query string.
